@@ -41,7 +41,6 @@ export default function MovieCard({
           </div>
         )}
 
-        {/* Add this button */}
         <button
           onClick={onClick}
           className="absolute bottom-2 right-2 px-3 py-1.5 bg-white text-black text-sm font-semibold rounded-lg shadow-lg hover:bg-gray-300"
