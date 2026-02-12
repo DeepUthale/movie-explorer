@@ -1,6 +1,6 @@
 # 🎬 Movie Explorer
 
-🌐 **Hosted App:** 
+🌐 **Hosted App:** https://movie-explorer-gamma-rouge.vercel.app/
 
 Movie Explorer lets users search movies, open a details view, and save favorites with a personal rating (1–5) and optional note. Movie data is fetched from TMDB through server-side Next.js proxy routes (so the API key stays hidden). Favorites are persisted in LocalStorage so they survive refresh
 
