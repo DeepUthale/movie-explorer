@@ -95,7 +95,7 @@ User Interface (Next.js)
   - `GET /api/movies/[id]` - Get movie details
 
 ### 🗃️ Data
-- ✅ LocalStorage used for favorites persistence (baseline requirement met)
+- ✅ LocalStorage used for favorites persistence
 
 ---
 
