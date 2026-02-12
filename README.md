@@ -21,7 +21,7 @@ Movie Explorer lets users search movies, open a details view, and save favorites
 
 ### Prereqs
 - Node.js 18+ (recommended)
-- TMDB API key ([Get one here](https://www.themoviedb.org/settings/api))
+- TMDB API key ([Get here](https://www.themoviedb.org/settings/api))
 
 ### 1️⃣ Install
 ```bash
@@ -45,7 +45,6 @@ Open: http://localhost:3000
 ## 🧩 Architecture
 ```
 User Interface (Next.js)
-    ↓
     ├─> /api/movies/search -> TMDB API
     ├─> /api/movies/[id] -> TMDB API
     └─> LocalStorage (Favorites)
@@ -94,14 +93,9 @@ User Interface (Next.js)
 - ✅ Next.js Route Handlers proxy TMDB:
   - `GET /api/movies/search` - Search movies
   - `GET /api/movies/[id]` - Get movie details
-- ⏳ Optional server-side persistence not implemented (kept scope to 3 hours)
 
 ### 🗃️ Data
 - ✅ LocalStorage used for favorites persistence (baseline requirement met)
-- ⏳ Optional database not added (would be next step)
-
-### 🌍 Hosting
-- ✅ Ready to deploy on Vercel with public URL
 
 ---
 
