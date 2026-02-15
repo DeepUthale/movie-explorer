@@ -60,14 +60,14 @@ export default function MovieCard({
           <div className="mt-3 pt-3 border-t">
             <div className="flex items-center gap-1 mb-1">
               <span className="text-sm font-medium">Rating:</span>
-              <span className="text-yellow-500">
+              <span className="text-yellow-500 text-2xl">
                 {"★".repeat(favorite.personalRating)}
                 {"☆".repeat(5 - favorite.personalRating)}
               </span>
             </div>
             <span className="text-sm font-medium">Your Notes:</span>
             {favorite.personalNote && (
-              <p className="text-sm text-gray-600 italic">
+              <p className="text-base text-gray-600 italic">
                 {favorite.personalNote}
               </p>
             )}
